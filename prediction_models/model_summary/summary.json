@@ -1,0 +1,15 @@
+{
+  "selected_models": {
+    "similarity_ranking": "hist_gradient_boosting",
+    "pre_outburst_change_detection": "one_class_svm",
+    "time_to_event": "cox_ph_penalizer_0_1"
+  },
+  "combined_review_score_formula": {
+    "similarity_percentile": 0.6,
+    "pre_outburst_anomaly_percentile": 0.25,
+    "survival_risk_percentile": 0.15
+  },
+  "shortlist_rows": 49024,
+  "documented_glof_lakes_in_top_100": 7,
+  "max_combined_review_score": 0.992383322454308
+}

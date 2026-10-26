@@ -1,0 +1,4 @@
+candidate_model,evaluation_type,rows,observed_events_inside_observation_window,concordance_index,fit_status
+cox_ph_penalizer_0_1,apparent_concordance_due_low_event_count,49024,3,0.9175402458704522,fit
+cox_ph_penalizer_1_0,apparent_concordance_due_low_event_count,49024,3,0.9175140056941182,fit
+weibull_aft_penalizer_0_1,apparent_concordance_due_low_event_count,49024,3,0.88483186607014,fit

@@ -1,0 +1,11 @@
+model_family,candidate_model,evaluation_type,test_rows,test_documented_positive_lakes,proxy_roc_auc,proxy_average_precision,precision_at_test_positive_count,pre_event_positive_rows,background_rows_for_eval,precision_at_positive_count,rows,observed_events_inside_observation_window,concordance_index,fit_status
+similarity_ranking,hist_gradient_boosting,documented_positive_vs_unlabeled_proxy,14708.0,16.0,0.9461654301660768,0.0394797145038474,0.125,,,,,,,
+similarity_ranking,balanced_random_forest,documented_positive_vs_unlabeled_proxy,14708.0,16.0,0.8704928702695344,0.0296295188936885,0.0625,,,,,,,
+similarity_ranking,balanced_logistic_regression,documented_positive_vs_unlabeled_proxy,14708.0,16.0,0.9714172679008984,0.0284895884062878,0.0,,,,,,,
+similarity_ranking,positive_centroid_similarity,documented_positive_vs_unlabeled_proxy,14708.0,16.0,0.8779693030220528,0.0169627766484811,0.0,,,,,,,
+pre_outburst_change_detection,one_class_svm,pre_event_documented_positives_vs_unlabeled_background_proxy,,,0.8120666666666667,0.0027528354394195,,3.0,5000.0,0.0,,,,
+pre_outburst_change_detection,isolation_forest,pre_event_documented_positives_vs_unlabeled_background_proxy,,,0.7338,0.0017829531799406,,3.0,5000.0,0.0,,,,
+pre_outburst_change_detection,local_outlier_factor,pre_event_documented_positives_vs_unlabeled_background_proxy,,,0.5129999999999999,0.001085266146836,,3.0,5000.0,0.0,,,,
+time_to_event,cox_ph_penalizer_0_1,apparent_concordance_due_low_event_count,,,,,,,,,49024.0,3.0,0.9175402458704522,fit
+time_to_event,cox_ph_penalizer_1_0,apparent_concordance_due_low_event_count,,,,,,,,,49024.0,3.0,0.9175140056941182,fit
+time_to_event,weibull_aft_penalizer_0_1,apparent_concordance_due_low_event_count,,,,,,,,,49024.0,3.0,0.88483186607014,fit

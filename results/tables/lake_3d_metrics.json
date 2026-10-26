@@ -1,0 +1,34 @@
+{
+  "metrics": {
+    "area_km2": 0.10242226269585525,
+    "perimeter_km": 1.7440095303371115,
+    "length_m": 524.6539980214002,
+    "width_m": 338.55348692066036,
+    "elongation": 1.5496930862931926,
+    "compactness": 0.42316186475851525,
+    "lake_elev_mean": 4375.55419921875,
+    "lake_elev_min": 4339.32666015625,
+    "lake_elev_max": 4425.478515625,
+    "lake_elev_range": 86.15185546875,
+    "surround_elev_mean": 4423.77490234375,
+    "surround_elev_max": 4568.57080078125,
+    "lake_slope_mean_deg": 18.89454460144043,
+    "surround_slope_mean_deg": 33.76246643066406,
+    "n_lake_components": 1,
+    "pixel_m": 0.7808215612867397,
+    "relief_above_lake_m": 193.0166015625,
+    "surround_minus_lake_mean_m": 48.220703125
+  },
+  "score": 37.45562786908438,
+  "cls": "MODERATE",
+  "centroid_lonlat": [
+    80.88324252630719,
+    30.053369525378336
+  ],
+  "history_given": {
+    "c1": null,
+    "c3": null,
+    "g": null,
+    "t": null
+  }
+}

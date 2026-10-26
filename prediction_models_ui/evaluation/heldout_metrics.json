@@ -1,0 +1,27 @@
+ {
+  "evaluation_set": "glof_test_dataset/test_lakes.csv",
+  "comparison_definition": "documented GLOF record (1) versus unlabeled record (0); unlabeled does not mean confirmed non-event",
+  "indicator_bundle": "prediction_models_ui/model.joblib",
+  "test_rows": 12991,
+  "documented_glof_rows": 6,
+  "unlabeled_rows": 12985,
+  "documented_glof_lakes": 1,
+  "unlabeled_lakes": 12985,
+  "roc_auc_documented_vs_unlabeled": 0.259819021948402,
+  "average_precision_documented_vs_unlabeled": 0.0003637049691959895,
+  "high_threshold": 66.67,
+  "accuracy_at_high_threshold": 0.9735201293202986,
+  "precision_at_high_threshold": 0.0,
+  "recall_at_high_threshold": 0.0,
+  "f1_at_high_threshold": 0.0,
+  "true_negative": 12647,
+  "false_positive": 338,
+  "false_negative": 6,
+  "true_positive": 0,
+  "limitations": [
+    "This is a retrospective proxy comparison, not a validated forecast.",
+    "The indicator reference percentiles were calculated from lake_features.csv, which includes the supplied study corpus.",
+    "The documented class contains only the records available in the supplied held-out set.",
+    "Unlabeled records are not confirmed non-events, so accuracy and precision must not be interpreted as real-world safety or event probabilities."
+  ]
+}

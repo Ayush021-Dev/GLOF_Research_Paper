@@ -1,0 +1,29 @@
+[
+  {
+    "candidate_model": "isolation_forest",
+    "evaluation_type": "pre_event_documented_positives_vs_unlabeled_background_proxy",
+    "pre_event_positive_rows": 3,
+    "background_rows_for_eval": 5000,
+    "proxy_roc_auc": 0.7338,
+    "proxy_average_precision": 0.0017829531799406328,
+    "precision_at_positive_count": 0.0
+  },
+  {
+    "candidate_model": "one_class_svm",
+    "evaluation_type": "pre_event_documented_positives_vs_unlabeled_background_proxy",
+    "pre_event_positive_rows": 3,
+    "background_rows_for_eval": 5000,
+    "proxy_roc_auc": 0.8120666666666667,
+    "proxy_average_precision": 0.0027528354394195436,
+    "precision_at_positive_count": 0.0
+  },
+  {
+    "candidate_model": "local_outlier_factor",
+    "evaluation_type": "pre_event_documented_positives_vs_unlabeled_background_proxy",
+    "pre_event_positive_rows": 3,
+    "background_rows_for_eval": 5000,
+    "proxy_roc_auc": 0.5129999999999999,
+    "proxy_average_precision": 0.0010852661468360005,
+    "precision_at_positive_count": 0.0
+  }
+]

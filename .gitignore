@@ -1,0 +1,73 @@
+# Local Python environments, caches, and editor settings
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.agents/
+
+# Secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+
+# Raw source data and generated bulk datasets
+/Lake_TP/
+/GLO/
+/GLOF INVENTORY/
+/master_lake_dataset/
+/demo_lakes/
+/glof_test_dataset/
+/glof_test_dataset - Copy/
+/report_assets/
+
+# Local raster, vector, and segmentation assets
+/DEM.tif
+/Copernicus_DSM_COG_10_N30_00_E080_00_DEM.tif
+/prediction.tif
+/lake_3d.html
+/lake_3d_metrics.json
+/results/interactive/
+/Segmentation Models/
+*.tif
+*.tiff
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+*.dlpk
+
+# Trained weights and serialized artifacts. The small UI bundle below is kept
+# so the dashboard code and its metadata remain reproducible.
+*.pth
+*.pt
+*.onnx
+*.pkl
+*.pickle
+*.joblib
+!prediction_models_ui/model.joblib
+
+# Large generated model tables; compact metrics, READMEs, and figures remain tracked.
+/prediction_models_ui/engineered_lake_features.csv
+/prediction_models_ui/evaluation/heldout_indicator_scores.csv
+/prediction_models/01_glof_similarity_ranking/glof_similarity_rankings.csv
+/prediction_models/02_pre_outburst_change_detection/pre_outburst_anomaly_scores_by_lake_year.csv
+/prediction_models/03_time_to_event/survival_training_matrix.csv
+/prediction_models/03_time_to_event/time_to_event_risk_scores.csv
+/prediction_models/model_summary/combined_glof_review_shortlist.csv
+# Canonical shareable figures are kept in results/images/.
+/prediction_models/**/*.png
+
+# OS files
+.DS_Store
+Thumbs.db
+.agents

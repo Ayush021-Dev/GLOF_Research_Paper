@@ -1,0 +1,38 @@
+[
+  {
+    "candidate_model": "positive_centroid_similarity",
+    "evaluation_type": "documented_positive_vs_unlabeled_proxy",
+    "test_rows": 14708,
+    "test_documented_positive_lakes": 16,
+    "proxy_roc_auc": 0.8779693030220528,
+    "proxy_average_precision": 0.016962776648481143,
+    "precision_at_test_positive_count": 0.0
+  },
+  {
+    "candidate_model": "balanced_logistic_regression",
+    "evaluation_type": "documented_positive_vs_unlabeled_proxy",
+    "test_rows": 14708,
+    "test_documented_positive_lakes": 16,
+    "proxy_roc_auc": 0.9714172679008984,
+    "proxy_average_precision": 0.02848958840628784,
+    "precision_at_test_positive_count": 0.0
+  },
+  {
+    "candidate_model": "balanced_random_forest",
+    "evaluation_type": "documented_positive_vs_unlabeled_proxy",
+    "test_rows": 14708,
+    "test_documented_positive_lakes": 16,
+    "proxy_roc_auc": 0.8704928702695344,
+    "proxy_average_precision": 0.029629518893688544,
+    "precision_at_test_positive_count": 0.0625
+  },
+  {
+    "candidate_model": "hist_gradient_boosting",
+    "evaluation_type": "documented_positive_vs_unlabeled_proxy",
+    "test_rows": 14708,
+    "test_documented_positive_lakes": 16,
+    "proxy_roc_auc": 0.9461654301660767,
+    "proxy_average_precision": 0.03947971450384746,
+    "precision_at_test_positive_count": 0.125
+  }
+]

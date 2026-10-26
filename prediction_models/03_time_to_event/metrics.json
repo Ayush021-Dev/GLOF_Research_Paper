@@ -1,0 +1,26 @@
+[
+  {
+    "candidate_model": "cox_ph_penalizer_0_1",
+    "evaluation_type": "apparent_concordance_due_low_event_count",
+    "rows": 49024,
+    "observed_events_inside_observation_window": 3,
+    "concordance_index": 0.9175402458704522,
+    "fit_status": "fit"
+  },
+  {
+    "candidate_model": "cox_ph_penalizer_1_0",
+    "evaluation_type": "apparent_concordance_due_low_event_count",
+    "rows": 49024,
+    "observed_events_inside_observation_window": 3,
+    "concordance_index": 0.9175140056941182,
+    "fit_status": "fit"
+  },
+  {
+    "candidate_model": "weibull_aft_penalizer_0_1",
+    "evaluation_type": "apparent_concordance_due_low_event_count",
+    "rows": 49024,
+    "observed_events_inside_observation_window": 3,
+    "concordance_index": 0.88483186607014,
+    "fit_status": "fit"
+  }
+]

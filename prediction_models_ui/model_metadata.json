@@ -1,0 +1,31 @@
+{
+  "name": "GLOF Susceptibility Indicator",
+  "version": "v1",
+  "target_type": "susceptibility_indicator",
+  "validated_supervised_probability": false,
+  "classes": [
+    "LOW",
+    "MODERATE",
+    "HIGH"
+  ],
+  "score_range": [
+    0,
+    100
+  ],
+  "normalization": "5th-95th percentile of lake_features.csv",
+  "rows": 216505,
+  "unique_lakes": 49024,
+  "features": [
+    "area_derived_km2",
+    "perimeter_derived_km",
+    "length_m",
+    "width_m",
+    "elongation_ratio",
+    "compactness",
+    "area_change_1y_km2",
+    "area_change_3y_km2",
+    "growth_rate_km2_per_year",
+    "causal_long_term_area_trend_km2_per_year"
+  ],
+  "note": "Indicator derived from available spatial and temporal lake characteristics. It is not a calibrated probability of GLOF occurrence."
+}
